@@ -1,0 +1,274 @@
+html, body {
+  margin: 0;
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+section#main-visual {
+  background-image: url(image/main-visual.jfif);
+  height: 100vh;
+  margin-bottom: 50px;
+  padding: 20px 15px;
+}
+section#main-visual .content {
+  max-width: 700px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section#main-visual .content .discription {
+  color: #fff;
+  width: 50%;
+}
+section#main-visual .content .discription p {
+  margin-bottom: 20px;
+}
+section#main-visual .content .discription img {
+  margin-bottom: 80px;
+}
+section#main-visual .content .discription h5 {
+  margin-bottom: 40px;
+}
+section#main-visual .content .discription h1 {
+  margin-bottom: 60px;
+}
+section#main-visual .content .discription a {
+  background: #fff;
+  padding: 20px 60px;
+  color: black;
+}
+
+section#about {
+  margin-bottom: 100px;
+}
+section#about .box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section#service {
+  margin-bottom: 100px;
+}
+section#service .box {
+  max-width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+section#service .box .item {
+  width: 50%;
+}
+
+section#section01 {
+  margin-bottom: 140px;
+}
+section#section01 div.box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+section#section02 {
+  margin-bottom: 100px;
+}
+section#section02 div.box div.title {
+  width: 600px;
+  margin: 0 auto;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+section#section02 div.box div.title h2 {
+  text-align: center;
+}
+section#section02 div.box .content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+section#section02 div.box .content .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+section#section02 div.box .content .item .img {
+  width: 30%;
+}
+section#section02 div.box .content .item .img img {
+  width: 100%;
+}
+section#section02 div.box .content .item .discription {
+  width: 70%;
+}
+
+section#section03 .box {
+  margin: 0 auto 70px;
+  max-width: 900px;
+}
+section#section03 .box .content p {
+  margin-bottom: 20px;
+}
+section#section03 .box .content a {
+  color: #fff;
+  background: black;
+  padding: 10px 60px;
+}
+
+section#section04 .box {
+  max-width: 900px;
+  margin: 0 auto 100px;
+}
+
+section#section05 .box {
+  max-width: 900px;
+  margin: 0 auto 100px;
+}
+
+section#flow .box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+section#flow .box .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+section#flow .box .item .img {
+  width: 30%;
+}
+section#flow .box .item .img img {
+  width: 100%;
+}
+section#flow .box .item .discription {
+  width: 70%;
+}
+
+section#qa {
+  padding: 60px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section#qa h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+section#qa .accordion {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+section#qa .accordion .content .acTitle {
+  background: black;
+  color: #fff;
+  padding: 20px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+section#qa .accordion .content .acTitle p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+section#qa .accordion .content .discription {
+  display: none;
+  background: gray;
+  border: #black solid 2px;
+  padding: 20px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section#qa .accordion .content .discription p {
+  font-size: 20px;
+  margin: 0;
+}
+
+section#contact {
+  padding: 0 15px 70px;
+}
+section#contact .box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+section#contact .box h2 {
+  margin-bottom: 20px;
+  color: blue;
+}
+section#contact .box .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #808080;
+  margin-bottom: 50px;
+}
+section#contact .box .form .title {
+  width: 30%;
+  padding: 25px 20px;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: blue;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+section#contact .box .form .content {
+  width: 70%;
+  padding: 25px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid #fff;
+  background: gray;
+}
+section#contact .box .form .content.select input {
+  width: auto;
+  height: auto;
+}
+section#contact .box .form .content.select span {
+  width: auto;
+}
+section#contact .box .form .content textarea {
+  width: 100%;
+}
+section#contact .box .form .content span {
+  width: 100%;
+}
+section#contact .box .form .content input {
+  height: 22px;
+  width: 100%;
+}
+section#contact .box .form .content select {
+  font-size: 18px;
+  height: 30px;
+}
+section#contact .box .form .content .wpcf7-list-item {
+  margin-left: 0;
+  margin-right: 25px;
+  font-size: 18px;
+}
+section#contact .box #submit {
+  background: #C1272D;
+  margin: 40px auto 0;
+  font-size: 20px;
+  display: block;
+  padding: 15px 120px;
+  border: none;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+section#contact .box #submit:hover {
+  background: #fff;
+  color: #C1272D;
+  border: 2px solid #C1272D;
+}
