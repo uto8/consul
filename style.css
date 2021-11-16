@@ -8,7 +8,7 @@ a, a:hover {
 }
 
 section#main-visual {
-  background-image: url(image/main-visual.jfif);
+  background-image: url(main-visual.jfif);
   height: 100vh;
   margin-bottom: 50px;
   padding: 20px 15px;
