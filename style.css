@@ -7,11 +7,48 @@ a, a:hover {
   text-decoration: none;
 }
 
+section .box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  z-index: 10;
+  position: fixed;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #fff;
+  width: 100%;
+}
+header .logo {
+  width: 200px;
+}
+header .logo img {
+  width: 100%;
+}
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav ul li {
+  padding: 20px 30px;
+}
+
 section#main-visual {
+  padding-top: 120px;
   background-image: url(main-visual.jfif);
   height: 100vh;
   margin-bottom: 50px;
-  padding: 20px 15px;
+  padding: 150px 15px 20px;
 }
 section#main-visual .content {
   max-width: 700px;
@@ -66,64 +103,64 @@ section#service .box .item {
   width: 50%;
 }
 
-section#section01 {
+section#trouble {
   margin-bottom: 140px;
 }
-section#section01 div.box {
+section#trouble div.box {
   max-width: 900px;
   margin: 0 auto;
 }
-section#section02 {
+section#solve {
   margin-bottom: 100px;
 }
-section#section02 div.box div.title {
+section#solve div.box div.title {
   width: 600px;
   margin: 0 auto;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }
-section#section02 div.box div.title h2 {
+section#solve div.box div.title h2 {
   text-align: center;
 }
-section#section02 div.box .content {
+section#solve div.box .content {
   max-width: 900px;
   margin: 0 auto;
 }
-section#section02 div.box .content .item {
+section#solve div.box .content .item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 40px;
 }
-section#section02 div.box .content .item .img {
+section#solve div.box .content .item .img {
   width: 30%;
 }
-section#section02 div.box .content .item .img img {
+section#solve div.box .content .item .img img {
   width: 100%;
 }
-section#section02 div.box .content .item .discription {
+section#solve div.box .content .item .discription {
   width: 70%;
 }
 
-section#section03 .box {
+section#cta .box {
   margin: 0 auto 70px;
   max-width: 900px;
 }
-section#section03 .box .content p {
+section#cta .box .content p {
   margin-bottom: 20px;
 }
-section#section03 .box .content a {
+section#cta .box .content a {
   color: #fff;
   background: black;
   padding: 10px 60px;
 }
 
-section#section04 .box {
+section#experience .box {
   max-width: 900px;
   margin: 0 auto 100px;
 }
 
-section#section05 .box {
+section#review .box {
   max-width: 900px;
   margin: 0 auto 100px;
 }
