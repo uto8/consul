@@ -236,7 +236,7 @@ section#solve div.box div.title {
   margin: 0 auto;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background: #003F67;
+  background: #1B1464;
   padding: 30px 20px;
   border-radius: 5px;
 }
@@ -466,7 +466,7 @@ section#company .box table {
 }
 section#company .box table tr th {
   padding: 15px 50px;
-  background: #003F67;
+  background: #1B1464;
   color: #fff;
   width: 100px;
 }
